@@ -1,14 +1,14 @@
-# Default starter for Gridsome
+This is a boilerplate to start developing new projects using Gridsome, contentful and Tailwindcss
 
-This is the project you get when you run `gridsome create new-project`.
+### 1. Add following varaibles to .env file and replace them with your contentful access data:
+` CTF_SPACE='<YOUR_CONTENTFUL_SPACE_ID>'
+  CTF_ACCESS_TOKEN='<YOUR_CONTENTFUL_ACCESS_TOKEN>'
+  CTF_ENVIRONMENT='master'
+  `
 
-### 1. Install Gridsome CLI tool if you don't have
+### 2. Install dependencies
 
-`npm install --global @gridsome/cli`
-
-### 2. Create a Gridsome project
-
-1. `gridsome create my-gridsome-site` to install default starter
+1. `yarn # npm install` to install default starter
 2. `cd my-gridsome-site` to open the folder
 3. `gridsome develop` to start a local dev server at `http://localhost:8080`
 4. Happy coding 🎉🙌
